@@ -27,7 +27,7 @@ router.get('/', async (req, res) => {
 });
 
 // PUT /api/id - Update the items
-router.put('/:id', async (req,res) => {
+router.put('/:id', async (req,res) => { 
   try {
     const getItem = await Item.findByIdAndUpdate(
       req.params.id,
