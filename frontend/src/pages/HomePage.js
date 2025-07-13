@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE = 'https://mern-backend.onrender.com/api';
+const API_BASE = 'https://mern-app-h17f.onrender.com/api';
 
 function Home (props) {
     const [items, setItems] = useState([]);
