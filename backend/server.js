@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://mern-app-kohl.vercel.app'
+  origin: 'https://mern-bqh9wk5l5-tkrmandars-projects.vercel.app'
 }));
 app.use(express.json());
 app.use('/api/items', itemRoutes);
